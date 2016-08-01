@@ -1,0 +1,40 @@
+{
+  "name": "ava-describe",
+  "version": "0.0.1",
+  "description": "A wrapper for AVA tests which simplifies nesting.",
+  "main": "lib/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [
+    "ava",
+    "javascript",
+    "testing"
+  ],
+  "author": "Sasha Klein",
+  "license": "MIT",
+  "engines": {
+    "node": "6.2.x"
+  },
+  "scripts": {
+    "test": "ava test --verbose",
+    "prepublish": "npm run build",
+    "build": "babel --presets es2015 -d lib/ src/"
+  },
+  "ava": {
+    "files": [
+      "test/**/*Test.js"
+    ],
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "dependencies": {
+    "ava": "^0.15.2",
+    "babel-cli": "^6.7.5",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "lodash": "^4.13.1"
+  }
+}

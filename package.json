@@ -1,8 +1,8 @@
 {
   "name": "ava-describe",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A wrapper for AVA tests which simplifies nesting.",
-  "main": "lib/index.js",
+  "main": "lib/describe.js",
   "directories": {
     "doc": "docs"
   },

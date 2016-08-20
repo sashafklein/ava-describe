@@ -13,6 +13,13 @@
   ],
   "author": "Sasha Klein",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sashafklein/ava-describe/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sashafklein/ava-describe.git"
+  },
   "engines": {
     "node": "6.2.x"
   },

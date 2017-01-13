@@ -21,7 +21,7 @@
     "url": "https://github.com/sashafklein/ava-describe.git"
   },
   "engines": {
-    "node": "6.2.x"
+    "node": ">=6.2.0"
   },
   "scripts": {
     "test": "ava test --verbose",
